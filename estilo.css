@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(66, 65, 65);
+    font: normal 15pt Arial;
+    padding: 20px;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.548)
+}
+
+section p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#escolhaNumero{
+    display: flex;
+    justify-content: center;
+}
+
+#numero{
+    width: 80px;
+}
+
+#botaoGerar{
+    background-color: rgb(114, 114, 241);
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#limpar{
+    background-color: green;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+#tab{
+   display: flex;
+   justify-content: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
